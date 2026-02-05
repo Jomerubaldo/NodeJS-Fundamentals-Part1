@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-fundamentals-part1",
+  "version": "1.0.0",
+  "description": "📘 Node.js Basics – API Introduction",
+  "homepage": "https://github.com/Jomerubaldo/NodeJS-Fundamentals-Part1#readme",
+  "bugs": {
+    "url": "https://github.com/Jomerubaldo/NodeJS-Fundamentals-Part1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jomerubaldo/NodeJS-Fundamentals-Part1.git"
+  },
+  "license": "ISC",
+  "author": "Jomer",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1"
+  }
+}
